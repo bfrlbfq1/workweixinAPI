@@ -5,7 +5,7 @@ import requests
 
 
 class Util:
-    @pytest.fixture(scope='session')
+    # @pytest.fixture(scope='session')
     # def token(self,tmp_path_factory,worker_id):
     def token(self):
         url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken'
